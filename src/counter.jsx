@@ -6,16 +6,11 @@ function Counter({ id, initial, step = 1, onDelete }) {
 
   const handleSumCounter = (event) => {
     setCounter(counter + step);
-    setDisabled(disabled = false);
-    setDisabled(event.currentTarget.parentNode.children[0].disabled = disabled);
   };
 
   const handleSubCounter = (event) => {
     if(counter > 0) {
       setCounter(Math.max(counter - step,0));
-    } else {
-      setDisabled(disabled = true)
-      setDisabled(event.currentTarget.disabled = disabled);
     };
   };
 
@@ -26,7 +21,7 @@ function Counter({ id, initial, step = 1, onDelete }) {
   return (
     <>
       <div className="mt-5 d-flex justify-content-center">
-        <button className="btn btn-danger me-1" onClick={handleSubCounter}>-</button>
+        <button className="btn btn-danger me-1" onClick={handleSubCounter} disabled={counter === 0}>-</button>
         <div className='mx-2 d-flex align-items-center'>
           <p className="m-0">{counter}</p>
         </div>
