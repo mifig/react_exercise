@@ -1,0 +1,28 @@
+Rate, barcelona teacher > irina will talk to Nuno;
+
+
+Calendar:
+  > Cookbook Day 2: long livecode;
+  > Treats for food delivery day 2
+
+  > DB module:
+    > motivation: we are over the OOP module, similar to rails, as DB will be.
+                  brainbreak from front-end.
+                  MVC pattern and CRUD, cotinues, really understand this.
+                  SQL usually it is easy, but it might be hard for some people: another patrh as well in terms of career if they want;
+                  21th May: hard because it mixes OOP with SQL, help them, extra attention
+                  28th May: lighter, but with quiz (remind on the 26th May). Revise SQL, CRUDs, Schema drawer, validations, 
+                  Ask João Sanches if he can do the 28th May class (TA missing);
+                  Remind it will be front-end, easier and front-end.
+
+
+  > Front-end:
+    play around with it, very long time until the projects, and you will need to do it in the project the front-end, so practice it, abbuse, work on your free-time;
+    Jun 4: remind of pitch FAQ (joao viana if he can be present 30 min), to have the faq on Jun 7.
+    Jun 11: pitch session
+    week 13: Talk about product sprint
+
+  > Rails module:
+    > check if joao can do this days (he needs to accept week 17)
+    > find a system for me to get feedback on teams of airbnb, how they are doing;
+
